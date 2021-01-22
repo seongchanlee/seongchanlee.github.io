@@ -1,0 +1,21 @@
+/* Theme */
+
+main {
+	background-image: url("../background.jpg");
+
+	/* background image settings */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
