@@ -41,6 +41,16 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+
+	background-image: url("../background.jpg");
+
+	/* background image settings */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: #FAFAFA;
 }
 
 main > .intro {
@@ -57,6 +67,18 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a:hover {
+	color: #A8BDDB;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
 }
 
 .devto {
